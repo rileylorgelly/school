@@ -3,4 +3,3 @@ Set-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Themes\P
 Write-Host -f Yellow "done`n"
 
 Stop-Process -Name explorer -Force # refresh explorer (to refresh theme)
-Start-Process -FilePath explorer.exe # just incase
